@@ -12,6 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #00FFBF;
+    border: 1px dashed #00FFBF;
 }
 
 .logo {
@@ -49,9 +50,6 @@ main {
 
 section {
     padding: 6rem;
-}
-
-section h2 {
     text-align: center;
 }
 
@@ -67,12 +65,44 @@ section h2 {
 }
 
 #drawing {
-    color: #0040FF;
+    color: #00EAFF;
 }
 
 #drawing img {
-    border: 10px solid #00EAFF;
+    border: 10px solid #6F00E6;
+    box-shadow: 5px 5px 5px black;
 }
+
+#painting {
+    color: #272FFF;
+}
+
+#painting img {
+    border: 10px solid #8F03FE;
+    box-shadow: 5px 5px 5px black;
+}
+
+#photo {
+    color: #C90DF8;
+}
+
+#photo img {
+    border: 10px solid #F5321E;
+    box-shadow: 5px 5px 5px black;
+}
+
+#events {
+    color: #F52D31;
+}
+.story {
+    padding: 2rem 0;
+}
+
+#events img {
+    border: 10px solid #F8BA0F;
+    box-shadow: 5px 5px 5px Black;
+}
+
 
 
 
