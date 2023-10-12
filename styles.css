@@ -15,6 +15,22 @@ header {
     border: 1px dashed #00FFBF;
 }
 
+@media screen and (max-width: 875px) {
+    header {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .nav {
+        display: none;
+    }
+
+    header .logo {
+        width: 100%;
+    }
+}
+
 .logo {
     width: 50%;
     display: flex;
@@ -83,7 +99,7 @@ section {
 }
 
 #photo {
-    color: #C90DF8;
+    color: #8F03FE;
 }
 
 #photo img {
@@ -103,6 +119,12 @@ section {
     box-shadow: 5px 5px 5px Black;
 }
 
+footer {
+    margin-top: 3rem;
+    border-top: 1px solid #F52D31;
+    color: #F52D31;
+    text-align: center;
+}
 
 
 
